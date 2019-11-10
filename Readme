@@ -1,3 +1,8 @@
 This repository contains all the related documents and work for my Proof of Concept.
 Everything related will be uploaded to here except for the quality assurance testing
 This will be included within my week 13 journal submission which will be in its own seperate repository here.
+
+This proof of concept is both a software deployment and a workflow. I have created a working directory and shell scripts
+to fullfll my desred outcomes with the translation of my choice.
+
+I have also created a template with seperate shell scripts so that it can be replicated and tweaked by others. 
