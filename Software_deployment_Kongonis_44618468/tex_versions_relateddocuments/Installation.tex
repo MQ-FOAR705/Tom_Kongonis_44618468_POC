@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Installation and Deployment Instructions}
+\author{Thomas Kongonis}
+\date{November 2019}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Explanation}
+
+\begin{itemize}
+\item{This Software deployment doubles at an attempt at creating software and also creating a workflow process with another set of translations.}
+\item{Due to this, the software directory contains two separate directories, one is my software deployment coded with my chosen translations. The second named blank workspace is a template set of directories and some simple codes to replicate the same thing with different translations.}
+\end{itemize}
+
+\section{Installation}
+
+\begin{enumerate}
+\item{\textbf{Setting up workspace:}}
+
+\begin{itemize}
+\item{Download and extract BlankWorkspace.zip.}
+\item{Download and install or open Gitbash and set operating area to the BlankWorkspace directory}
+\item{Utilise mv code to move translations into the OriginalTranslations Directory}
+\item{If any more than the example amount of translations are present, create extra directories and .txt documents through mkdir and mv functions.}
+
+\end{itemize}
+\vspace{10mm}
+
+\item{\textbf{Correctly formatting translations and chapters in workspace:}}
+\begin{itemize}
+\item{Utilise Shell Command or gui to implement the respective chapter formation shell scripts which are within each folder. You can either code bash filename.sh or double click on it within the gui and it will create the text files enmasse.}
+\item{Format chapters pulled from the original translations correctly, including removing any symbols that may cause the script to return errors or not pull the correct files up.}
+\end{itemize}
+\end{enumerate}
+
+\vspace{10mm}
+
+
+\section{Deployment}
+
+\begin{enumerate}
+\item{\textbf{Situate in workspace:}}
+\begin{itemize}
+\item{Open Gitbash and utilise cd code to situate in the BlankWorkspace Directory}
+\item{Utilise mv code to rename the directory to your desired name.}
+\end{itemize}
+
+\item{\textbf{Setting up and running Shell Script:}}
+
+\begin{itemize}
+
+\item{open script in shell command and situate within shellscripts folder or Translations folder.}
+\item{If in Translations folder type command bash desired chapter code and press return. For example you would type bash c05code.sh}
+
+\item{Run shell script and pull up desired chapters within the shell command.}
+\item{gather desired information and repeat as necessary.}
+
+\item{if in shellscript folder, you will need to }
+\end{itemize}
+
+
+
+
+\end{enumerate}
+
+
+\section{Documentation and Review}
+
+\begin{enumerate}
+\item{\textbf{Documenting used Shell Scripts}}
+
+\begin{itemize}
+\item{After changing the shell script, saving it as a new script within the directory will give you the ability to have a script for each chapter that you wish to pull up. This will create less work down the line, especially if old chapters need to be brought up.}
+\end{itemize}
+\item{\textbf{Documenting failures:}}
+\begin{itemize}
+\item{As this doubles as a workflow, the whole process will also help to enforce very basic shell command skills, therefore any failures should be documented in failures.txt document for future reference.} 
+\end{itemize}
+\end{enumerate}
+
+\end{document}

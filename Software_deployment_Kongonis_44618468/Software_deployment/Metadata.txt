@@ -1,0 +1,24 @@
+The way these directories are crafted are coded in such a way as to
+allow the shell scripts to function correctly. 
+These scripts have all been tested and they all work with these codes.
+
+Translations : t0* (for example translation one would be named t01 and so on)
+
+Chapters: t0*c0* (For example t01c01, no capitalisation)
+
+directories: These must not be changed and retain the same coding eg. c01
+
+Translations directory: named Translations (upper case intended)
+
+Data directory: This directory includes miscellaneous other files
+
+Shell script directory: named as shell-scripts/
+
+Shell scripts: These scripts are named a specific way, the chapters and
+translation codes are common to these also. The other point is that these
+codes are all directory specific and as such they get a specific code.
+For example: the c01_code within the shell-scripts directory will have
+the term scriptdir in its name. On the other hand, in the Translation
+directory, the scripts there have the term transdir within their name.
+
+Original translations: These are in the Original_Translations directory (upper case intended)
